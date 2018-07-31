@@ -7,6 +7,41 @@ import com.khahani.app.whydatabasesample.CoursesContract;
 import com.khahani.app.whydatabasesample.CoursesContract.CoursesEntry;
 
 
+/*.open bartar.db
+
+        CREATE TABLE courses(
+        title	TEXT,
+        hours	INTEGER);
+
+        INSERT INTO courses
+        (title, hours)
+        VALUES
+        ('Android', 60);
+
+        INSERT INTO courses
+        (title)
+        VALUES
+        ('Java');
+
+        UPDATE courses
+        SET hours = 30
+        WHERE title = 'Java';
+
+        DELETE FROM courses
+        WHERE title = 'Java';
+
+        CREATE TABLE test(
+        name TEXT);
+
+        DROP TABLE test;
+
+
+
+        .databases
+        .mod column
+        .header on*/
+
+
 public class DbHelper extends SQLiteOpenHelper {
 
     private static final String DATABASE_NAME = "bartar.db";
